@@ -16,6 +16,15 @@ public class Main {
       //  if (age >= 24) {
       //      System.out.println("Человек окончил университет и пора искать первую работу"); }
 
+        // Задание 3
+        int NumberOfOccupiedPlaces = 103;
+        if (NumberOfOccupiedPlaces < 60) {
+            System.out.println("Есть свободные места");}
+        if (NumberOfOccupiedPlaces >= 60 && NumberOfOccupiedPlaces< 102) {
+                System.out.println("Остались только стоячие свободные места");}
+                if (NumberOfOccupiedPlaces >= 102) {
+                    System.out.println("Свободных мест нет"); }
+
 
         }
 
