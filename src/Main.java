@@ -71,6 +71,15 @@ public class Main {
       //      System.out.println("Если ребёнку уже есть " + age + " лет, то он может прокатиться на аттракционе, но только в сопровождении взрослого"); } else if (age >= 14) {
       //      System.out.println("В возрасте " + age + " лет ребёнок может кататься на аттракционе без сопровождения взрослого");        }
 
+        //Задание 3.3
+
+        int one =1;
+        int two = 2;
+        int three = 3;
+       if (three > one && three > two) {
+           System.out.println("Число three является бОльшим из трёх чисел"); } else {
+           System.out.println("Я не шарю в цифрах"); }
+
     }
 
 }
